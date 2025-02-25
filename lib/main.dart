@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:ytquran/constant.dart';
-import 'index.dart';
+import 'presentation/view/index.dart';
 void main() {
   runApp(const MyApp());
 }

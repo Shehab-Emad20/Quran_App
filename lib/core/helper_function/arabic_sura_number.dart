@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ytquran/to_arabic_no_converter.dart';
+import 'package:ytquran/core/helper_function/arabic_no_converter.dart';
 
 
 class ArabicSuraNumber extends StatelessWidget {
