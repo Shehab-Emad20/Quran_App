@@ -1,0 +1,43 @@
+name: ytquran
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0-120.0.dev <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.5.2
+  scrollable_positioned_list: ^0.3.8
+  cupertino_icons: ^1.0.8
+  flutter_native_splash: ^2.4.5
+  share_plus: ^10.1.4
+  url_launcher: ^6.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/quran.png
+  android: true
+  ios: true
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/quran.png
+    - assets/
+
+  fonts:
+    - family: quran
+      fonts:
+        - asset: assets/HafsSmart_08.ttf
+    - family: me_quran
+      fonts:
+        - asset: assets/me_quran.ttf
